@@ -51,10 +51,10 @@
 }
 
 .register .register-elements button{
-    height: 2.8vw;
+    height: 3.4vw;
     width: 10vw;
     margin: 1vw 2vw;
-    border-radius: 4px 30px 30px 2px;
+    border-radius: 10px;
     cursor: pointer;
     transition: box-shadow 0.3s ease; 
 }
