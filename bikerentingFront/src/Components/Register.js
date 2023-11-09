@@ -78,6 +78,7 @@ const Register = () => {
     
 
   return (
+    
     <div className='register'>
         <h2>Register</h2>
         <form method='POST' className='register-elements' onSubmit={handleSubmit} encType="multipart/form-data">

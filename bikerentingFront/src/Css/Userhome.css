@@ -1,0 +1,172 @@
+/* .main-user{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+  
+    
+}
+
+.user-leftside{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    padding: 10px 20px;
+    color: black;
+    overflow: hidden;
+   
+    
+}
+
+.user-leftside img{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 60px 120px 60px 120px;
+ 
+    
+}
+
+.user-leftside h4{
+    color: black;
+    margin: 3vw 0;
+}
+
+.user-leftside h5{
+    margin: 2vw 0;
+}
+
+.bike-cards{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+
+  
+  
+  
+}
+
+.cards{
+    
+    height: 60%;
+    margin: 1.5vw 2vw;
+    border: 2px solid black;
+    flex-grow: 1;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 30px -2px black;
+}
+.cards img{
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    border-radius: 15px;
+   
+    
+}
+.cards p{
+    font-size: 1vw;
+}
+.cards button{
+    padding: 4px 4px;
+    margin-left: 2vw;
+    margin-top: 1vw;
+    border-radius: 10px;
+    background-color: grey;
+    color: white;
+}
+ */
+
+
+ .main-user{
+    height: calc(100vh - 100px);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(144, 238, 144, 0.631);
+ }
+
+ .user-leftside{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2vw 0;
+    /* padding: 4px 4px; */
+ }
+
+ .user-leftside img{
+    background-size: cover;
+    height: 30%;
+   border-radius: 15px;
+
+ }
+
+ .user-leftside h4 {
+    color: black
+ }
+
+ .bike-cards{
+    height: 100%;
+    width: 100%;
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: space-around;
+    padding: 1vw 0;
+ }
+ .cards{
+    /* flex-direction: column; */
+    height: 95%;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 20px;
+    /* display: flex; */
+    position: relative;
+    background-color: white;
+    border: none;
+    box-shadow:  0 0 15px -2px black;
+ }
+
+ .cards img{
+    background-size: cover;
+    object-fit: cover;
+    height: 40%;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+ }
+ .cards p {
+    font-size: 25px;
+ }
+ .bike-info{
+    display: flex;
+ }
+ .bikeinfofromback{
+    display: flex;
+ }
+
+ .bikeinfofromback p {
+    white-space: nowrap;
+    overflow: hidden;
+ }
+ /* .bikeadd{
+    display: flex;
+ }
+ .bikeaddback{
+    display: flex;
+ } */
+ .userleftimg img{
+    width: 100%;
+    background-size: cover;
+    height: 100%;
+  
+ }
+.cards button{
+    margin-left: 7vw;
+    padding: 4px 6px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+ 

@@ -7,6 +7,7 @@ export const Login = () => {
   const [data, setData] = useState({
     email:"",password:""
   })
+  const [user, setUser] = useState(null)
   const navigate = useNavigate()
   const handleInputChange = (e)=>{
     const{name,value} = e.target
@@ -25,12 +26,16 @@ const handleSubmit = async (e)=>{
     }
   });
   const result = requestToBackend.data
+
   if(result.status===false || !result){
     alert("password is wrong")
   }
   else{
-    alert("login was successfull")
-    navigate("/profile")
+    console.log(result.userdetails,"details")
+    setUser(result.userdetails)
+   
+    // alert("login was successfull")
+    navigate("/profile", { state: { user: result.userdetails } })
   }
 } catch (error) {
   if (error.response) {

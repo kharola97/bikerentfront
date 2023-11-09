@@ -1,10 +1,14 @@
 .main-body{
-  height: calc(100vh -100px);
+  
   width: 100%;
   z-index: 2;
   text-align: center;
-  margin-top: 4vw;
-  ;
+  /* margin-top: 4vw; */
+   background-image:  url(https://images.unsplash.com/photo-1522868891863-f97b8ca4c424?auto=format&fit=crop&q=80&w=2072&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  overflow: auto;
+  /* background-color: aqua; */
+  height: calc(100% - 100px)
   
 }
 
@@ -16,8 +20,8 @@
   
 }
 
-.main-body h1{
-
+.main-body > h1{
+padding-top: 3vw;
   font-size: 4vw;
   font-weight: 800;
   margin-left: 7.5vw;
